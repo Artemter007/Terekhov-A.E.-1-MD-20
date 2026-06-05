@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/courses.css">
+    <style>
+        main {
+            margin: 0 15% 0 13%;
+        }
+
+        section{
+          margin-top: 200px;
+        }
+
+        h1{
+            margin-top: 200px;
+            margin-bottom: 50px;
+            font-size: 48px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <header>
+
+        <nav>
+
+            <img src="img/лого.svg" alt="Логотип" class="logo">
+
+            <div class="btn-group gap-nav" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary nav" style="border-radius: 50px;" onclick="location.href='index.html'">Главная</button>
+              <button type="button" class="btn btn-primary nav" style="border-radius: 50px;" onclick="location.href='#'">Курсы</button>
+              <button type="button" class="btn btn-primary nav" style="border-radius: 50px;" onclick="location.href='teachers.html'">Учителя</button>
+              <button type="button" class="btn btn-primary nav" style="border-radius: 50px;">Цены</button>
+              <button type="button" class="btn btn-primary nav" style="border-radius: 50px;">Отзывы</button>
+            </div>
+
+            <div class="container-messenger">
+
+            <img src="img/vkontakte.svg" alt="ВК">
+            <img src="img/telegramm.svg" alt="Телеграмм">
+            <img src="img/youtube.svg" alt="Ютуб">
+
+            </div>
+
+        </nav> 
+
+    </header>
+
+    <main>
+
+      <section>
+
+        <h1>Курсы</h1>
+        
+      <div id="geeks">
+
+        <ul style="margin-bottom: 100px; flex-wrap: wrap;">
+            <li><a href="#Practice" class="tabs-link">Джаз</a></li>
+            <li><a href="#Data_Structure" class="tabs-link hover active">Классика</a></li>
+            <li><a href="#Algorithms" class="tabs-link">Рок</a></li>
+            <li><a href="#interview" class="tabs-link">Аккустика</a></li>
+        </ul>
+
+        <!-- Джаз -->
+
+        <div id='Practice'>
+
+          <div class="row align-items-start">
+
+            <div class="col">
+
+              <div id='Practice'>
+            
+                <article class="two-card">
+
+            <h3 class="title3-cart">Прогресс</h3>
+
+            <p class="price">8 990 ₽ / мес</p>
+
+            <p class="text-cart">Для тех, кто уже умеет брать аккорды, но хочет играть чисто, ритмично и со вкусом. Разбор любимых песен полностью.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Начало»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Игра по аккордным схемам  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Пульс, ритм, глушение струн
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                10 готовых аранжировок
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Степан Александрович
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Ирина Юрьевна
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+                </article>
+
+              </div>
+
+            </div>
+
+            <div class="col">
+
+              <article class="one-card">
+
+            <h3 class="title3-cart title3-cart-center">Начало</h3>
+
+            <p class="price price-center">2 490 ₽ / мес</p>
+
+            <p class="text-cart text-cart-center">Идеальный старт для тех, кто никогда не держал гитару в руках. Простые бои, переборы и первые аккорды уже через неделю.</p>
+
+            <h3 class="title-cart" style="color: white;">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Всё из тарифа «Начало»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Игра по аккордным схемам  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Пульс, ритм, глушение струн
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                10 готовых аранжировок
+              </label>
+            </div>
+
+            <h3 class="title-cart" style="color: white;">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Аркадий Сотников
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Татьяна Родионова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+                </article>
+
+            </div>
+
+            <div class="col">
+
+              <article class="two-card">
+
+            <h3 class="title3-cart">Прогресс</h3>
+
+            <p class="price">8 990 ₽ / мес</p>
+
+            <p class="text-cart">Полное погружение в инструмент. Соло, импровизация, гитарная гармония, а также запись своих треков. Уровень профи за 6 месяцев.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Начало»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Игра по аккордным схемам  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Пульс, ритм, глушение струн
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                10 готовых аранжировок
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Даниил Кырчанов
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Елена Осипова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+                </article>
+
+            </div>
+
+          </div>
+          
+        </div>
+
+        <!-- Классика -->
+
+        <div id='Data_Structure'>
+
+            <div class="row align-items-start">
+
+              <div class="col">
+
+                <article class="two-card">
+
+            <h3 class="title3-cart" style="width: 275px;">Импровизация</h3>
+
+            <p class="price">5 990 ₽ / мес</p>
+
+            <p class="text-cart">Перестаньте играть по нотам — начните говорить на джазе. Лады, блюзовые ноты, построение соло и работа с II–V–I.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Стандарт»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Пентатоника + альтерации
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Фразировка как у Монтгомери
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                10 готовых соло для разбора
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Степан Александрович
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Ирина Юрьевна
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+                </article>
+
+              </div>
+
+              <div class="col">
+
+                <article class="one-card">
+
+            <h3 class="title3-cart title3-cart-center">Стандарт</h3>
+
+            <p class="price price-center">3 490 ₽ / мес</p>
+
+            <p class="text-cart text-cart-center">Вход в мир джазовой гармонии. Освойте аккордовые сетки, базовую фразировку и первые стандарты вроде Autumn Leaves.</p>
+
+            <h3 class="title-cart" style="color: white;">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                12 уроков: аккорды  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                5 джазовых игр для разбора  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Ритм-свинг и артикуляция
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Проба джазового плейлиста
+              </label>
+            </div>
+
+            <h3 class="title-cart" style="color: white;">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Аркадий Сотников
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Татьяна Родионова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+                </article>
+
+              </div>
+
+              <div class="col">
+
+                <article class="two-card">
+
+            <h3 class="title3-cart" style="width: 233px;">Боп-Мастер</h3>
+
+            <p class="price">9 990 ₽ / мес</p>
+
+            <p class="text-cart">Уровень клуба, сцены и джем-сейшнов. Гармония высокого разрешения, замены аккордов, бибоп и импровизация поверх темпов 220+.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Импровизация»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Хроматические проходы
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Анализ соло Паркера и Пассу
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Персональный фидбек
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Даниил Кырчанов
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Елена Осипова 
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+            </article>
+
+              </div>
+
+            </div>
+
+        </div>
+
+        <!-- Рок -->
+
+        <div id='Algorithms'>
+
+          <div class="row align-items-start">
+
+            <div class="col">
+
+              <article class="two-card">
+
+            <h3 class="title3-cart">Соло</h3>
+
+            <p class="price">5 490 ₽ / мес</p>
+
+            <p class="text-cart">Легато, бенды, вибрато — всё, чтобы жечь на сцене. Учитесь играть соло</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Power»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Пентатоника и боксы на гриф 
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                10 соло потактно с табами
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Техника другого штриха
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Степан Александрович
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Ирина Юрьевна
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+              </article>
+
+            </div>
+
+            <div class="col">
+
+              <article class="one-card">
+
+            <h3 class="title3-cart title3-cart-center">Энергия</h3>
+
+            <p class="price price-center">2 490 ₽ / мес</p>
+
+            <p class="text-cart text-cart-center">Драйв, риффы и первые перегрузы. Для тех, кто хочет звучать как AC/DC, Nirvana и Green Day. Гитара.</p>
+
+            <h3 class="title-cart" style="color: white;">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                10 уроков: силовые аккорды  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Пальцевая синхронизация  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Разбор 5 культовых песен
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Тембры: драйв, фузз
+              </label>
+            </div>
+
+            <h3 class="title-cart" style="color: white;">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Аркадий Сотников
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Татьяна Родионова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+              </article>
+
+            </div>
+
+            <div class="col">
+
+              <article class="two-card">
+
+            <h3 class="title3-cart">Стейдж</h3>
+
+            <p class="price">8 990 ₽ / мес</p>
+
+            <p class="text-cart">Хеви-метал, прогрессив и хард-рок. Свип-пикинг, тэппинг, даунтюнинг и запись своих треков в DAW.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Соло»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Экономичный штрих
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Анализ партий Петруччи и др.
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Мастеринг гитары в рекорде
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Даниил Кырчанов 
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Елена Осипова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+              </article>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Акустика -->
+         <div id='interview'>
+
+          <div class="row align-items-start">
+
+            <div class="col">
+
+              <article class="two-card">
+
+            <h3 class="title3-cart">Арпеджио</h3>
+
+            <p class="price">4 290 ₽ / мес</p>
+
+            <p class="text-cart">Аранжировки для одного инструмента. Fingerstyle, тянущиеся басы и чистое звучание как у Томми Эммануэля.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Первый аккорд»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                10 пьес в стиле фингерстайл  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Каподастр и другой строй
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Игра с глушением и с корпусом
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Степан Александрович
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Ирина Юрьевна
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+              </article>
+
+            </div>
+
+            <div class="col">
+
+              <article class="one-card">
+
+            <h3 class="title3-cart title3-cart-center">Первый аккорд</h3>
+
+            <p class="price price-center">2 290 ₽ / мес</p>
+
+            <p class="text-cart text-cart-center">Акустика без боли и разочарований. Песни у костра, бои, переборы и комфортная постановка рук.</p>
+
+            <h3 class="title-cart" style="color: white;">ЧТО ВНУТРИ</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                12 песен с самого начала  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Открытые аккорды и баррэ  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                4 ритмических рисунка
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Настройка и уход за гитарой
+              </label>
+            </div>
+
+            <h3 class="title-cart" style="color: white;">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Аркадий Сотников
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px; color: white;">
+                Татьяна Родионова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+              </article>
+
+            </div>
+
+            <div class="col">
+
+              <article class="two-card">
+
+            <h3 class="title3-cart" style="width: 238px;">Бард & Блюз</h3>
+
+            <p class="price">6 490 ₽ / мес</p>
+
+            <p class="text-cart">Глубокий саунд и живая подача. Ритм-смена, слайд-гитара, открытые строчки и разбор акустических концертов.</p>
+
+            <h3 class="title-cart">ЧТО ВНУТРИ</h3>
+
+             <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Всё из тарифа «Арпеджио»  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Акустический блюз и кантри  
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Слайд без слайдера
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Разбор вашей песни
+              </label>
+            </div>
+
+            <h3 class="title-cart">Преподаватели</h3>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Даниил Кырчанов
+              </label>
+            </div>
+
+            <div class="form-check form-switch" style="margin-left: 20px;">
+              <input class="form-check-input" type="checkbox" value="" id="checkNativeSwitch" style="margin-top: 11px;">
+              <label class="form-check-label" for="checkNativeSwitch" style="margin-bottom: 0px; font-size: 24px;">
+                Елена Осипова
+              </label>
+            </div>
+
+            <button style="margin-left: 20px; margin-top: 20px; border-radius: 25px;" class="button">Записаться</button>
+
+              </article>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Аккордионы -->
+
+    <section>
+
+      <h1>Сразу ответим на вопросы ЧаВо:</h1>
+
+      <div class="accordion" id="accordionExample">
+
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+          <button class="accordion-button question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Вопрос 1: Нужно ли брать гитару на первый урок?
+          </button>
+
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+
+            <div class="accordion-body">
+              <strong>Ответ: не обязательно, но желательно, чтобы
+преподаватель увидел состояние
+и качество инструмента. Если гитары нет, можно
+воспользоваться нашей,
+совершенно бесплатно!
+              </strong>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+            <button class="accordion-button question collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Вопрос 2: Как записаться максимально быстро?
+            </button>
+          </h2>
+
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+            <div class="accordion-body">
+              <strong>Ответ: Позвонив нам на горячую линию или, запсавшись у нас на сайте </strong>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+            <button class="accordion-button question collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Вопрос 3: Есть ли оплата картой?
+            </button>
+          </h2>
+
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Ответ: Пока что такой оплаты у нас не присутсвует, но вы можете оплатить на сайте указав номер вашей карты </strong>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+            <button class="accordion-button question collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="margin-bottom: 0px;">
+              Вопрос 4: С какого возраста берёте детей?
+            </button>
+          </h2>
+
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Ответ: Если ваш ребёнок горит желанием учиться играть на гитаре то это обсуждаемо</strong>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    </main>
+
+    <footer class="footer_check" >
+
+        <div class="container-footer">
+
+            <a href="#"><img src="img/telephone.svg" alt="Телефон"> +1(23)-45-67-890</a>
+
+            <a href="#" style="margin-left: 150px;"><img src="img/Маркер.svg" alt="Маркер"> г. Москва, ул. Тверская, дом. 1</a>
+            
+            <a href="#" style="margin-left: 150px;"><img src="img/Messege.svg" alt="Мессенджер"> mail@site.ru</a>
+
+            <p class="footer-text">&copy; Мелодия души — Обучение игре на гитаре</p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#geeks").tabs().css({
+               'min-height': '100px',
+               'overflow': 'visible'
+            });
+        })
+    </script>
+
+  </body>
+</html>

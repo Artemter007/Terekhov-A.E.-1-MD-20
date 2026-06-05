@@ -1,0 +1,349 @@
+body{
+    margin-left: 280px;
+}
+
+header {
+    height: 1015px;
+    width: 100%;
+    background-image: url('../img/Фон.svg');
+}
+
+.logo{
+    width: 121px;
+    height: 138px;
+    margin-top: 14px;
+}
+
+.nav{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px 36px 16px 36px;
+    border-radius: 25px;
+}
+
+.nav:hover{
+    background: linear-gradient(to top right, #830000, #FF7C7C);
+}
+
+.nav:active{
+    color: black;
+}
+
+.header-subtitle {
+    margin-top: 154px; 
+    margin-left: 250px; 
+    color: white; 
+    font-family: Inter; 
+    font-weight: 400; 
+    letter-spacing: 4px;
+}
+
+.header-title {
+    margin-left: 250px; 
+    color: white; 
+    font-size: 96px; 
+    font-family: 'Inter'; 
+    font-weight: bold;
+    width: 764px; height: 232px; 
+    margin-top: 0;
+}
+
+button{
+    width: 208px;
+    height: 61px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    font-size: 24px;
+    background: linear-gradient(to top right, #D32A00, #7E0101);
+}
+
+button:hover{
+    background: black;
+}
+
+button:active{
+     width: 190px;
+     height: 55px;
+}
+
+.container-cart {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container-title {
+    margin-left: 20px; 
+    color: white;
+}
+
+.container-text {
+    margin-top: 334px; 
+    width: 402px; 
+    color: white; 
+    height: 139px; 
+    margin-left: 20px;
+}
+
+.container-text2 {
+    margin-top: 238px; 
+    width: 408px; 
+    height: 232px; 
+    color: black; 
+    margin-left: 20px;
+}
+
+.cart_1{
+    background-image: url('../img/С_нуля.svg');
+    width: 440px;
+    height: 630px;
+}
+
+.cart_2{
+    background-image: url('../img/Для_продвинутых.svg');
+    width: 440px;
+    height: 630px;
+
+}
+
+.cart_3{
+    background-image: url('../img/Уроки_по_индивидуальной_программе.svg');
+    width: 440px;
+    height: 630px;
+}
+
+.container-info {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.title-info {
+    color: black; 
+    float: left; 
+    margin-right: 10px;
+}
+
+.text-info {
+    color: black; 
+    width: 659px; 
+    height: 261px;
+}
+
+.title-gitar {
+    margin-left: 20px; 
+    color: white;
+}
+
+.title-info1 {
+    margin-top: 119px; 
+    margin-left: 20px; 
+    color: white
+}
+
+.title-info2 {
+    margin-top: 122px; 
+    margin-left: 20px; 
+    color: white
+}
+
+.title-info3 {
+    margin-top: 145px; 
+    margin-left: 20px; 
+    color: white
+}
+
+.title-info4 {
+    margin-top: 147px; 
+    margin-left: 20px; 
+    color: white
+}
+
+.gitara_info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gitara_1{
+    background-image: url('../img/Гитара_джаз.svg');
+    width: 555px;
+    height: 369px;
+}
+
+.gitara_2{
+    background-image: url('../img/Классика_гитара.svg');
+    width: 562px;
+    height: 368px;
+}
+
+
+.gitara_3{
+    background-image: url('../img/Рок_гитара.svg');
+    width: 550px;
+    height:400px;
+}
+
+.gitara_4{
+    background-image: url('../img/Акустика_гитара.svg');
+    width: 562px;
+    height: 400px;
+}
+
+.teacher-info {
+    width: 780px; 
+    height: 174px; 
+    margin-bottom: 15px;
+}
+
+.teacher-img {
+    width: 518px; 
+    height: 501px;
+    margin-left: 57px; 
+    margin-top: 50px;
+}
+
+.cost-title {
+    width: 564px; 
+    height: 96px; 
+    padding-top: 150px; 
+    color: white; 
+    margin: 0px 250px 0px 250px;
+}
+
+.container-cost {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 113px 250px 0px 250px;
+}
+
+.article-cost {
+    width: 440px; 
+    height: 443px; 
+    background-image: url('../img/Фон_3.svg');
+}
+
+.article-cost2 {
+    width: 440px; 
+    height: 443px; 
+    background-image: url('../img/Фон_3.svg'); 
+    margin-left: 20px
+}
+
+.article-cost3 {
+    width: 440px; 
+    height: 443px; 
+    background-image: url('../img/Фон_3.svg'); 
+    margin-left: 20px
+}
+
+#hidden-text {
+    color: white; 
+    text-align: center; 
+    margin-top: 50px; 
+    opacity: 50%;
+}
+
+.article-student {
+    display: flex; 
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.article-student2 {
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 67px;
+}
+
+.article-reviews {
+    background-image: url('../img/Фон_4.svg'); 
+    background-repeat: no-repeat; 
+    margin-left: 120px;
+}
+
+.student {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.reviews-text {
+    width: 310px; 
+    height: 192px; 
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.article-reviews2 {
+    background-image: url('../img/Фон_4.svg'); 
+    background-repeat: no-repeat; 
+    margin-left: 78px;
+}
+
+.reviews-text2 {
+    width: 310px; 
+    height: 192px; 
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.reviews-text3 {
+    width: 310px; 
+    height: 192px; 
+    font-size: 20px; 
+    margin-top: 10px;
+    margin-left: 19px;
+}
+
+.article-reviews3 {
+    background-image: url('../img/Фон_4.svg'); 
+    background-repeat: no-repeat; 
+    margin-left: 78px;
+}
+
+.reviews-button {
+    width: 440px; 
+    height: 61px; 
+    margin-left: 475px;
+}
+
+.reviews-button:active {
+    width: 400px; 
+    height: 55px; 
+}
+
+.footer_check {
+    margin-top: 200px; 
+    background-color: black; 
+    height: 390px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.container-footer {
+    margin: 0 15% 0 15%;
+}
+
+.footer-text {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.background-image {
+    background-image: url('../img/Фон_2.svg');
+     height: 928px;
+}
